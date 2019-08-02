@@ -6,7 +6,7 @@
     - To choose electronics component
     - To debug a failing circuit
 
-![perf board attiny](assets\FLF0LQLHEBNH7UI.LARGE.jpg)
+![perf board attiny](assets/FLF0LQLHEBNH7UI.LARGE.jpg)
 
 
 
@@ -18,7 +18,7 @@
 
 When talk about voltage, assuming you have no electronic or electrical background, the first thing you may think, might be a high voltage warning. However, such warning might make people misinterpret how voltage works.
 
-In Physics, voltage is also called electric potential "difference". Which also suggested that it's some kind of subtraction. Look at the picture. ![bird power line](assets\Screenshot_20190204-082427_Gallery.jpg)
+In Physics, voltage is also called electric potential "difference". Which also suggested that it's some kind of subtraction. Look at the picture. ![bird power line](assets/Screenshot_20190204-082427_Gallery.jpg)
 
 Don't worry, no birds were harmed. Anyway, this is a very good demonstration of the importance of a reference. The power line those birds stood on probably operating over thousands of volt. However, birds won't be killed as there's no voltage difference on where they are standing.<img align="right" width="240" height="260" src=".\assets\avoidshocks016.jpg">
 
@@ -34,7 +34,7 @@ Ohm's Law is a simple yet very important law in electrical and electronic engine
 $$
 V = IR
 $$
-While V stands for Voltage, I stands for current and R stands for resistance.![ohm's law](assets\zi3yac7jkxj21.jpg)
+While V stands for Voltage, I stands for current and R stands for resistance.![ohm's law](assets/zi3yac7jkxj21.jpg)
 
 And this picture explain it perfectly.
 
