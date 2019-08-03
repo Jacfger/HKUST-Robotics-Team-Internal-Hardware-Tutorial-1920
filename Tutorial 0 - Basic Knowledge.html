@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>Tutorial 0 - Basic Knowledge</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body>
+        <h1 id="tutorial-0---basic-knowledge">Tutorial 0 - Basic Knowledge</h1>
+<h4 id="0-objective-of-hardware">0. Objective of Hardware</h4>
+<ul>
+<li>Design and make prototype of electronics circuit
+<ul>
+<li>To choose electronics component</li>
+<li>To debug a failing circuit</li>
+</ul>
+</li>
+</ul>
+<p><img src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\FLF0LQLHEBNH7UI.LARGE.jpg" alt="perf board attiny"></p>
+<h4 id="1-the-how-to-basics">1. The (How to) Basics</h4>
+<h5 id="10-basic-electronics">1.0 Basic electronics</h5>
+<p>There's few type of electronics component.</p>
+<table border="0">
+<tr>
+    <td align="center">Resistors</td>
+    <td align="center"><img height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\2785-03-1564812167285.jpg"><img height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+<tr>
+    <td>Capacitor</td>
+    <td><img height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\407684326c404052734_grande.jpeg"><img align="centre" height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+<tr>
+    <td>Inductor</td>
+    <td><img height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\407684326c404052734_grande.jpeg"><img align="centre" height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+</table>
+<table>
+<thead>
+<tr>
+<th>foo</th>
+<th>bar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>baz</td>
+<td>bim</td>
+</tr>
+</tbody>
+</table>
+<h5 id="11-voltage">1.1 Voltage</h5>
+<p><img align="right" width="100" height="130" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\E3444-1564765376829.png">The first things we are going to talk about will be Voltage.</p>
+<p>When talk about voltage, assuming you have no electronic or electrical background, the first thing you may think, might be a high voltage warning. However, such warning might make people misinterpret how voltage works.</p>
+<p>In Physics, voltage is also called electric potential &quot;difference&quot;. Which also suggested that it's some kind of subtraction. Look at the picture. <img src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\Screenshot_20190204-082427_Gallery.jpg" alt="bird power line"></p>
+<p>Don't worry, no birds were harmed. Anyway, this is a very good demonstration of the importance of a reference. The power line those birds stood on probably operating over thousands of volt. However, birds won't be killed as there's no voltage difference on where they are standing.<img align="right" width="240" height="260" src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\avoidshocks016.jpg"></p>
+<p>However, if you are being electrical shocked unluckily. During the process, you are actually creating a reference by putting your feet onto the ground as the ground you stand on and the ground of the power plug are generally connected. As a result, 220V induced across your body and current will flow.</p>
+<p>Let's use gravity as another example. A ball on a table will fall to the ground if you push out of the edge. However, if you don't push it to the edge, assuming the table is flat, it will remain on the table, as at the point of view of the ball, the table is its &quot;GROUND&quot;. Or say it in another way, the best way to prevent something from falling, is to put it on the ground. Nothing will fall if it's on the ground at the first place. Even if it's happening on 28th floor.</p>
+<p>Therefore, for voltage exist, you need to create a reference. A.K.A. a closed circuit (which means make the circuit form a loop).</p>
+<h5 id="12-ohms-law">1.2 Ohm's Law</h5>
+<p>Ohm's Law is a simple yet very important law in electrical and electronic engineering.</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi></mrow><annotation encoding="application/x-tex">V = IR
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span></span></p>
+<p>While V stands for Voltage, I stands for current and R stands for resistance.<img src="file:///e:\UST\HKUST-Robotics-Team-Internal-Hardware-Tutorial-1920\assets\zi3yac7jkxj21.jpg" alt="ohm's law"></p>
+<p>And this picture explain it perfectly.</p>
+
+    </body>
+    </html>
