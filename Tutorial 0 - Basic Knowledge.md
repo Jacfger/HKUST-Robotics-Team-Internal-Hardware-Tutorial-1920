@@ -59,7 +59,7 @@ Current is a measurement of how much charge is moving per second.
 
 Ohm's Law is a simple yet very important law in electrical and electronic engineering.
 
-![](http://latex.codecogs.com/gif.latex?V=IR)
+<img align="centre" width="240" height="260" src="http://latex.codecogs.com/gif.latex?V=IR">
 
 While V stands for Voltage, I stands for current and R stands for resistance.![ohm's law](assets/zi3yac7jkxj21.jpg)
 
@@ -70,4 +70,5 @@ There's an idiom says, "High voltage will kill". This idiom is not accurate. Fro
 ##### 1.3 Power Calculation
 
 The simplest way of calculating power, or average power:
-![](http://latex.codecogs.com/gif.latex?P=I^2R=\frac{V^2}{R}=VI)
+
+<img align="centre" width="240" height="260" src="http://latex.codecogs.com/gif.latex?P=I^2R=\frac{V^2}{R}=VI">
