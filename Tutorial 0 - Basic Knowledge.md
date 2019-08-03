@@ -39,13 +39,17 @@ When talk about voltage, assuming you have no electronic or electrical backgroun
 
 In Physics, voltage is also called electric potential "difference". Which also suggested that it's some kind of subtraction. Take an example, look at the following picture.![bird power line](assets/Screenshot_20190204-082427_Gallery.jpg)
 
-Don't worry, no birds were harmed. Anyway, this is a very good demonstration of the importance of a reference. The power line those birds stood on probably operating over thousands of volt. However, birds won't be killed as there's no voltage difference on where they are standing.<img align="right" width="240" height="260" src=".\assets\avoidshocks016.jpg">
+Don't worry, no birds were harmed. Anyway, this is a very good demonstration of the importance of a reference. The power line those birds stood on probably operating over thousands of volt. However, birds won't be killed as there's no voltage difference on where they are standing.
 
-However, if you are being electrical shocked unluckily. During the process, you are actually creating a reference by putting your feet onto the ground while the ground you stand on are generally connected to the ground of the power plug. As a result, 220V induced between where you touch and the ground; as a result, current will flow through your body.
+The result persist when electromagnetic force is replaced by gravity. Imagine a ball on a table will fall to the ground if you push out of the edge. However, if you don't push it to the edge (assuming the table is flat), it will remain at the same place, since at the point of view of the ball,the table is its "GROUND". Just like the picture of the birds standing on powerlines. Indeed, the powerline contains high electric potential, but there doesn't exist a low electric potential point to create a potential difference. Hence, the voltage(electric potential difference) is 0V. 
 
-Let's use gravity as another example. A ball on a table will fall to the ground if you push out of the edge. However, if you don't push it to the edge, assuming the table is flat, it will remain on the table, as at the point of view of the ball, the table is its "GROUND". Or say it in another way, the best way to prevent something from falling, is to put it on the ground. Nothing will fall if it's on the ground at the first place. Even if it's happening on 28th floor.
+Or say it in another aspect, the best way to prevent something from falling, is putting it on the ground. Nothing will fall if it's on the ground at the first place. Even if it's happening on 28th floor. Or, in electrical aspect, no current will flow at all if whole system stays at 50kV (with reference to ground) since there isn't any difference, the voltage of the system will be 0V.
 
-Therefore, for voltage to exist, you need to create a reference. A.K.A. a closed circuit (which means make the circuit form loops/meshes).
+<img align="right" width="240" height="260" src=".\assets\avoidshocks016.jpg">
+
+However, if you are being electrical shocked unluckily. During the process, you are actually creating a difference by putting your feet onto the ground; as the ground you stand on are generally connected to the ground of the power plug. As a result, the point where you touch and the ground will have a electric potential difference (voltage) of 220V (or 110V, 230V in some country). Hence, current is going to flow through your body.
+
+Therefore, for voltage to exist, or perhaps, creating a electric potential difference, you need to create a difference. A.K.A. a closed circuit (which means make the circuit form loops/meshes). Just like what you did when you are being electrical shocked.
 
 ##### 1.2 Current
 
