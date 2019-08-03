@@ -12,6 +12,27 @@
 
 #### 1. The (How to) Basics
 
+##### 1.0 Basic electronics
+
+There's few type of electronics component.
+<table border="0">
+<tr>
+    <td align="center">Resistors</td>
+    <td align="center"><img height="130" src=".\assets\2785-03-1564812167285.jpg"><img height="130" src=".\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+<tr>
+    <td>Capacitor</td>
+    <td><img height="130" src=".\assets\407684326c404052734_grande.jpeg"><img align="centre" height="130" src=".\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+<tr>
+    <td>Inductor</td>
+    <td><img height="130" src=".\assets\407684326c404052734_grande.jpeg"><img align="centre" height="130" src=".\assets\smd-resistor-500x500.jpg"></td>
+</tr>
+</table>
+
+
+
+
 ##### 1.1 Voltage
 
 <img align="right" width="100" height="130" src=".\assets\E3444-1564765376829.png">The first things we are going to talk about will be Voltage. 
