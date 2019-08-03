@@ -33,6 +33,8 @@ There's few type of electronics component.
 
 ##### 1.1 Voltage
 
+Disclaimer: The following explanation of voltage had made some estimation. This won't be the exactly the same as the explanation you would get if you studying physics.
+
 <img align="right" width="100" height="130" src=".\assets\E3444-1564765376829.png">The first things we are going to talk about will be voltage. 
 
 When talk about voltage, assuming you have no electronic or electrical background, the first thing you may think, might be a high voltage warning. However, such warning might make people misinterpret how voltage works.
@@ -49,7 +51,7 @@ Or say it in another aspect, the best way to prevent something from falling, is 
 
 However, if you are being electrical shocked unluckily. During the process, you are actually creating a difference by putting your feet onto the ground; as the ground you stand on are generally connected to the ground of the power plug. As a result, the point where you touch and the ground will have a electric potential difference (voltage) of 220V (or 110V, 230V in some country). Hence, current is going to flow through your body.
 
-Therefore, for voltage to exist, or perhaps, creating a electric potential difference, you need to create a difference. A.K.A. a closed circuit (which means make the circuit form loops/meshes). Just like what you did when you are being electrical shocked.
+Therefore, for measuring the voltage, or perhaps, finding the electric potential difference, you need to find a reference correctly.
 
 ##### 1.2 Current
 
