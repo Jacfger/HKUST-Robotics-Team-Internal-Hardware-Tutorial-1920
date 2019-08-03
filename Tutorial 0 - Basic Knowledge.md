@@ -41,11 +41,11 @@ In Physics, voltage is also called electric potential "difference". Which also s
 
 Don't worry, no birds were harmed. Anyway, this is a very good demonstration of the importance of a reference. The power line those birds stood on probably operating over thousands of volt. However, birds won't be killed as there's no voltage difference on where they are standing.<img align="right" width="240" height="260" src=".\assets\avoidshocks016.jpg">
 
-However, if you are being electrical shocked unluckily. During the process, you are actually creating a reference by putting your feet onto the ground as the ground you stand on and the ground of the power plug are generally connected. As a result, 220V induced between where you touch and the ground; as a result, current will flow through your body.
+However, if you are being electrical shocked unluckily. During the process, you are actually creating a reference by putting your feet onto the ground while the ground you stand on are generally connected to the ground of the power plug. As a result, 220V induced between where you touch and the ground; as a result, current will flow through your body.
 
 Let's use gravity as another example. A ball on a table will fall to the ground if you push out of the edge. However, if you don't push it to the edge, assuming the table is flat, it will remain on the table, as at the point of view of the ball, the table is its "GROUND". Or say it in another way, the best way to prevent something from falling, is to put it on the ground. Nothing will fall if it's on the ground at the first place. Even if it's happening on 28th floor.
 
-Therefore, for voltage exist, you need to create a reference. A.K.A. a closed circuit (which means make the circuit form a loop).
+Therefore, for voltage to exist, you need to create a reference. A.K.A. a closed circuit (which means make the circuit form loops/meshes).
 
 ##### 1.2 Current
 
